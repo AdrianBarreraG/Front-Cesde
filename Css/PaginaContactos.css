@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+}
+body
+{
+    background-color:  #FFDFD3;
+}
+.BotonInicio
+{
+    height: 290px;
+    width: 340px;
+}
+nav
+{
+
+}
+nav ul
+{
+    background-color: #D291BC;
+    display: flex;
+    list-style: none;
+    padding: 20px;  
+}
+nav li
+{
+    position: relative;
+    left: 250px;
+    margin: 0 35px ;
+}
+
+nav a
+{   
+    text-decoration: none;
+    color:#FBFEFF;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover
+{
+  background-color: #8d5b84;
+  padding: 20px;
+}
+.Formulario
+{
+    width: 250px;
+    height: 250px;
+}
+.RedesSociales
+{
+    position: absolute;
+    right: 300px;
+    top: 450px;
+}
+.RedesSociales h2
+{
+    margin-bottom: 30px;
+}
+.RedesSociales img
+{
+    width: 50px;
+    height: 50px ;
+}
