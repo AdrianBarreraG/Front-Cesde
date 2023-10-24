@@ -58,6 +58,7 @@ input[type="text"], input[type="number"], input[type="email"], textarea
     box-sizing: border-box;
     border-radius: 5px;
     background-color: rgb(223, 219, 219);
+    font-size: 17px;
 }
 #Enviar
 {   
