@@ -28,7 +28,7 @@
     header .logo {
         text-align: center;
         width: 400px;
-        height: 320px;
+        height: 325px;
     }
     
     nav ul {
@@ -37,10 +37,10 @@
         width: 100%;
         height: 80px;
         margin-top: 0;
-        
         border: 30px;
+        padding: 15px;
         background-color: #D291BC;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
     
     nav ul li {
@@ -49,6 +49,7 @@
         font-style: italic;
         color: aliceblue;
         text-decoration: none;
+        list-style: none;
     }
     
     nav ul li a{
@@ -133,4 +134,70 @@
         margin-left: 20px;
         margin-bottom: 100px;
     }
+
+    .Formulario
+{
+    position: relative;
+    top: 100px;
+    left: 170px;
+}
+.Formulario ul
+{
+    list-style: none;
+}
+
+input[type="text"], input[type="number"], input[type="email"], textarea 
+{
+    width: 400px;
+    padding: 20px 30px;
+    margin-bottom: 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(223, 219, 219);
+    font-size: 17px;
+}
+#Enviar
+{   
+    background-color: rgb(223, 219, 219);
+    width: 95px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 186, 186);
+}
+#Enviar a:hover
+{
+    color: rgb(73, 71, 71);
+    background-color: rgb(187, 186, 186);
+    padding: 10px 20px;
+}
+#Enviar h3
+{
+    color: rgb(54, 53, 53);
+    text-align: center;
+    margin-top: 8px;
+}
+#Enviar a
+{
+    text-decoration: none;
+}
+
+.RedesSociales
+{
+    position: absolute;
+    right: 300px;
+    top: 450px;
+}
+.RedesSociales h2
+{
+    margin-bottom: 30px;
+    color: rgb(105, 104, 103);
+}
+.RedesSociales img
+{
+    width: 50px;
+    height: 50px ;
+    margin-right: 10px;
+}
     
