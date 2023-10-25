@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+}
+body
+{
+    background-color:  #FFDFD3;
+}
+.BotonInicio
+{
+    height: 290px;
+    width: 340px;
+}
+nav ul
+{
+    background-color: #D291BC;
+    display: flex;
+    list-style: none;
+    padding: 20px;  
+}
+nav li
+{
+    position: relative;
+    left: 250px;
+    margin: 0 35px ;
+}
+
+nav a
+{   
+    text-decoration: none;
+    color:#FBFEFF;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover
+{
+  background-color: #8d5b84;
+  padding: 20px;
+}
+.Formulario
+{
+    position: relative;
+    top: 100px;
+    left: 170px;
+}
+.Formulario ul
+{
+    list-style: none;
+}
+
+input[type="text"], input[type="number"], input[type="email"], textarea 
+{
+    width: 400px;
+    padding: 20px 30px;
+    margin-bottom: 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(223, 219, 219);
+    font-size: 17px;
+}
+#Enviar
+{   
+    background-color: rgb(223, 219, 219);
+    width: 95px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 186, 186);
+}
+#Enviar a:hover
+{
+    color: rgb(73, 71, 71);
+    background-color: rgb(187, 186, 186);
+    padding: 10px 20px;
+}
+#Enviar h3
+{
+    color: rgb(54, 53, 53);
+    text-align: center;
+    margin-top: 8px;
+}
+#Enviar a
+{
+    text-decoration: none;
+}
+
+.RedesSociales
+{
+    position: absolute;
+    right: 300px;
+    top: 450px;
+}
+.RedesSociales h2
+{
+    margin-bottom: 30px;
+    color: rgb(105, 104, 103);
+}
+.RedesSociales img
+{
+    width: 50px;
+    height: 50px ;
+    margin-right: 10px;
+}
