@@ -118,12 +118,9 @@ body
   border-radius: 15PX;
 }
 
-#enlaceComprar a
-{
+#enlaceComprar a{
   font-size: 20px;
   color: rgb(246, 237, 237);
-  text-decoratio
-
 }
 
 #enlaceComprar a:hover
@@ -146,4 +143,53 @@ body
   transform: rotate(340deg);
   width: 360px; 
   height:390px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  top: 0;
+  bottom: 100px;
+}
+
+header .logo img {
+  width: 100%;
+  height: 90%;
+}
+
+header .logo {
+  text-align: center;
+  width: 400px;
+  height: 325px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  margin-top: 0;
+  border: 30px;
+  padding: 15px;
+  background-color: #D291BC;
+  justify-content: space-around;
+}
+
+nav ul li {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: italic;
+  color: aliceblue;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul li a{
+  top: 12px;
+  color: aliceblue;
+  text-decoration: none;
 }
