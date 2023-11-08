@@ -138,8 +138,8 @@
     .Formulario
 {
     position: relative;
-    top: 100px;
-    left: 470px;
+    top: 50px;
+    left: 200px;
 }
 .Formulario ul
 {
@@ -186,7 +186,7 @@ input[type="text"], input[type="number"], input[type="email"], textarea
 .RedesSociales
 {
     position: absolute;
-    right: 700px;
+    right: 100px;
     top: 50px;
 }
 .RedesSociales h2
