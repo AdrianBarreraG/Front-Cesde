@@ -9,7 +9,7 @@ body
 .BotonInicio
 {
     height: 290px;
-    width: 340px;      
+    width: 340px;
 }
 nav ul
 {
@@ -19,7 +19,7 @@ nav ul
     padding: 20px;  
 }
 nav li
-{
+{  
     position: relative;
     left: 250px;
     margin: 0 35px ;
@@ -89,7 +89,7 @@ input[type="text"], input[type="number"], input[type="email"], textarea
 {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 450px;
 }
 .RedesSociales h2
 {
