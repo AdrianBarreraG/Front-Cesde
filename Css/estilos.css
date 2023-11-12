@@ -209,15 +209,24 @@ input[type="text"], input[type="number"], input[type="email"], textarea
     width: 40%;
     height: 500px;
     /* margin-left: 540px; */
-    margin-right: 25px;
+    /* margin-right: 25px; */
     margin-bottom: 20px;
     border-radius: 40px;
     background-color: #957DAD;
     display: flex;
+    justify-content: center;
 }
 
 .contenedor-flex {
     display: flex;
     justify-content: center;
+}
+
+.contenedor-panel img {
+    width: 80%;
+    height: 85% ;
+    margin-top: 6.5%;
+    margin-left: 10.5%;
+    filter: invert();
 }
 
