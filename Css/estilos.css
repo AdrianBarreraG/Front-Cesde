@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
     }
     
     body {
@@ -200,4 +203,21 @@ input[type="text"], input[type="number"], input[type="email"], textarea
     height: 50px ;
     margin-right: 10px;
 }
-    
+
+.contenedor-panel {
+    /*width: 1490px;*/
+    width: 40%;
+    height: 500px;
+    /* margin-left: 540px; */
+    margin-right: 25px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    background-color: #957DAD;
+    display: flex;
+}
+
+.contenedor-flex {
+    display: flex;
+    justify-content: center;
+}
+
