@@ -208,3 +208,59 @@ input[type="text"], input[type="number"], input[type="email"], textarea
     justify-content: center;
     align-items: center;
 }
+
+.contenedorArriba1 {
+    width: 20%;
+    height: 600px;
+    border-radius: 40px;
+    background-color: #957DAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 98%;
+    display: flex;
+    height: 90%;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 23px;
+    margin-top: 1%;
+    margin-left: 1.2%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.contenedorArriba2 img:hover {
+    cursor: crosshair;
+    width: 20%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.imagen-carrusel {
+    width: 100%;
+}
+
+.imagen-carrusel img {
+    width: 100%;
+}
+
+.contenedorArriba2 {
+    width: 99%;
+    height: 600px;
+    border-radius: 40px;
+    background-color: #957DAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
