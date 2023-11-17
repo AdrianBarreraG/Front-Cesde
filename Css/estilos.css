@@ -10,6 +10,7 @@
         margin: 0;
         padding: 0;
         background-color: #FFDFD3;
+        justify-content: space-around;
     }
     
     h1 {
@@ -207,4 +208,66 @@ input[type="text"], input[type="number"], input[type="email"], textarea
     display: flex;
     justify-content: center;
     align-items: center;
+}
+main
+{
+    display: flex;
+    height: 650px; 
+    width: 479px;
+}
+.fondoIngresar
+{
+    background-color: #957DAD;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    border-radius: 42px;
+}
+.formularioIngresoRegistro
+{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    position: relative;
+    top: 50px;
+    justify-content: space-around;
+}
+input[type="text"], input[type="email"]
+{
+    width: 100%;
+    padding: 20px 30px;
+    margin: 40px 100px 40px 0px;
+    display: flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(223, 219, 219);
+    font-size: 17px;
+    
+}
+.botonIngresar
+{
+    width: 35%;
+    height: 70px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: rgb(223, 219, 219);
+    font-size: 17px;
+    margin: 10px 50px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.botonIngresar a
+{
+    text-decoration: none;
+    color: rgb(99, 98, 98);
+}
+.botonIngresar a:hover
+{
+    background-color: rgb(190, 189, 189);
+    padding: 20px 18px 16px;
 }
