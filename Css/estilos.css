@@ -85,7 +85,7 @@
     }
     
     main {
-        display: inline-block;
+        display: flex;
         position: relative;
         width: 100%;
     }
@@ -163,9 +163,10 @@ input[type="text"], input[type="number"], input[type="email"], textarea
 }
 
 .RedesSociales
-{
+{   
+    flex-direction:row;
     position: absolute;
-    right: 100px;
+    right: 0;
     top: 50px;
 }
 
