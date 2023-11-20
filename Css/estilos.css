@@ -81,6 +81,7 @@
         background-color: #957DAD;
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
     
     main {
@@ -94,6 +95,7 @@
         height: 514px;
         border-radius: 23px;
         margin: 5%;
+        
     }
     
     
@@ -106,11 +108,12 @@
         margin-bottom: 1%;
     }
     
-    .contenedor-abajo img{
+    .contenedor-abajo img {
         width: 93%;
         height: 90%;
         border-radius: 23px;
         margin: 1%;
+        transition: all 500ms ease-out;
     }
 
     .Formulario
@@ -263,4 +266,42 @@ section img {
     align-items: center;
 }
 
+/*
+.container-fluid div 
+{
+    border-radius: 23px;
+    margin: 1%;
+    position: absolute;
+    top: 0;
+    left: 4%;
+    width: 15%;
+    height: 10%;
+    background-color: #d69ec3;
+    transition: all 1000ms ease-out;
+    opacity: 0;
+    visibility: visible;
+    text-align: center;
+}
 
+.Animacion:hover
+{
+    opacity: 1;
+    visibility: visible;
+}
+*/ 
+
+.container-fluid .Animacion
+{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.5);
+    transition: transform 0.10s ease-in-out;
+    opacity: 0;
+}
+.Animacion:hover
+{
+    opacity: 1;
+}
