@@ -36,7 +36,7 @@
     
     nav ul {
         display: flex;
-        flex-direction: row;
+        flex-direction:row;
         width: 100%;
         height: 80px;
         margin-top: 0;
@@ -71,12 +71,14 @@
     }
     
     .contenedor-abajo {
-        width: 95.5%;
+        width: 80.5%;
         margin: 0.5%;
         border-radius: 40px;
         background-color: #957DAD;
         display: flex;
         justify-content: space-around;
+        position: relative;
+        left: 40px;
     }
     
     main {
@@ -113,9 +115,8 @@
 
     .Formulario
 {
-    position: relative;
-    top: 50px;
-    left: 200px;
+ 
+    display: flex;
 }
 .Formulario ul
 {
@@ -161,9 +162,11 @@ input[type="text"], input[type="number"], input[type="email"], textarea
 
 .RedesSociales
 {
-    position: absolute;
-    right: 100px;
-    top: 50px;
+  
+    display: inline-block;
+    justify-content: center;
+    margin-left: 50px;
+    
 }
 
 .RedesSociales h2
@@ -208,6 +211,7 @@ input[type="text"], input[type="number"], input[type="email"], textarea
 
 }
 
+
 .iconoseditar div
 {
     width: 60px;
@@ -239,12 +243,13 @@ input[type="text"], input[type="number"], input[type="email"], textarea
 
 .container-card {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
+
 }
 
 .container-card-item {
-    width: 350px;
+    width:350px;
 }
 
 .Animacion
@@ -259,6 +264,13 @@ input[type="text"], input[type="number"], input[type="email"], textarea
     background: rgba(0,0,0,0.5);
     color: #fff;
     display: flex;
+    justify-content: center;
+}
+
+
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -294,26 +306,6 @@ input[type="text"], input[type="number"], input[type="email"], textarea
         
      }
 
-.Animacion::after {
-    content: "Tournesol Desde $20.000 ";
-    position: absolute;
-    top: 5px;
-    left: 8px;
-    width: 87%;
-    height: 522px;
-    margin: 25px 23px;
-    border-radius: 5%;
-    background: rgba(0,0,0,0.5);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    opacity: hidden;
-    text-align: center;
-    transition: opacity 0.5s;
- }
- 
 
 /* Medias queries de 320 a 480 px */
     
@@ -373,6 +365,49 @@ input[type="text"], input[type="number"], input[type="email"], textarea
         display: none;
     }
 
+
+  }
+
+  @media (min-width:701px) and (max-width: 750px){
+    .contacto{
+        flex-direction: column;
+    }
+    nav ul li {
+        font-family: Inter;
+        font-size: 22px;
+        font-style: italic;
+        color: aliceblue;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+    } 
+    nav ul {
+        display: flex;
+        flex-direction:row;
+        width: 100%;
+        height: 80px;
+        margin-top: 0;
+        border: 30px;
+        padding: 5px;
+        background-color: #D291BC;
+        justify-content: space-around;
+        margin-right: 30px;
+    }
+
+  }
+  @media (min-width:701px) and (max-width: 750px){
+    nav ul {
+        display: flex;
+        flex-direction:row;
+        width: 100%;
+        height: 80px;
+        margin-top: 0;
+        border: 30px;
+        padding: 5px;
+        background-color: #D291BC;
+        justify-content: space-around;
+        margin-right: 30px;
+    }
     .bootstrap-nav {
         display: none;
     }
