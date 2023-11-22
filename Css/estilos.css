@@ -72,7 +72,6 @@
     
     .contenedor-abajo {
         width: 95.5%;
-      
         margin: 0.5%;
         border-radius: 40px;
         background-color: #957DAD;
@@ -108,6 +107,8 @@
         height: 90%;
         border-radius: 23px;
         margin: 1%;
+        transition: all 700ms ease-out;
+
     }
 
     .Formulario
@@ -246,6 +247,21 @@ input[type="text"], input[type="number"], input[type="email"], textarea
     width: 350px;
 }
 
+.Animacion
+{
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    width: 87%;
+    height: 522px;
+    margin: 25px 23px;
+    border-radius: 5%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
 @media (1000px <= width <= 1300px) {
     .container-card-item {
         width: 230px;
@@ -272,4 +288,32 @@ input[type="text"], input[type="number"], input[type="email"], textarea
     .container-card-item {
         width: 100%;
     }
+    .Animacion:hover::after {
+        opacity: 1;
+        visibility: visible;
+        
+     }
+
+.Animacion::after {
+    content: "Tournesol Desde $20.000 ";
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    width: 87%;
+    height: 522px;
+    margin: 25px 23px;
+    border-radius: 5%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    opacity: hidden;
+    text-align: center;
+    transition: opacity 0.5s;
+ }
+ 
+
+
 }
